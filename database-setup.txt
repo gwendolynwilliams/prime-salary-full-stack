@@ -1,0 +1,10 @@
+CREATE TABLE employees
+(
+  id SERIAL PRIMARY KEY,
+  first_name varchar(80) NOT NULL,
+  last_name varchar(80) NOT NULL,
+  emp_id integer NOT NULL,
+  job_title varchar(128) NOT NULL,
+  annual_salary numeric,
+  active boolean
+)
